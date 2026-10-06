@@ -1,0 +1,17 @@
+# ---- 体积过大 / GitHub 单文件 100MB 上限，不纳入仓库 ----
+
+# ffmpeg 引擎（~500MB）：按「环境安装说明.md」从 gyan.dev 下载放入 ffmpeg/
+ffmpeg/
+
+# AirPlay 1 完整备份（~500MB）：本地保留，仓库不携带
+AirPlay1方案-备份/
+
+# 编译构建产物
+ap2src/**/build/
+ap2src/**/build.log
+ap2src/**/configure.log
+ap2src/**/build_done.txt
+
+# 运行日志 / 临时文件
+*.log
+ffmpeg_devlist.txt
