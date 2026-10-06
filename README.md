@@ -74,7 +74,7 @@ HomePod 会话偶发释放时，GUI 自动退避重连（最多 6 次）。
 
 - ffmpeg 低延迟参数：`-fflags nobuffer -flags low_delay -probesize 32 -analyzeduration 0 -flush_packets 1`
 - AirPlay 2 免 PIN（transient pairing，HomePod 无 PIN 弹窗）
-- 延迟实测 ≤ 3 秒（目标达成），PCM 无压缩流 + 低延迟 ffmpeg 参数
+- 延迟实测 ≤ 3 秒，PCM 无压缩流 + 低延迟 ffmpeg 参数
 
 ## 致谢
 
