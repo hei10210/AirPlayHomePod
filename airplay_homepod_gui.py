@@ -531,7 +531,7 @@ class AirPlayGui:
         ttk.Button(eng_row, text="刷新", command=self.refresh_engine).pack(side="right", padx=4)
 
         # ② 设备
-        dev = ttk.LabelFrame(frm, text="② 目标设备（HomePod mini）", padding=8)
+        dev = ttk.LabelFrame(frm, text="② 目标设备（HomePod）", padding=8)
         dev.pack(fill="x", **pad)
         row1 = ttk.Frame(dev)
         row1.pack(fill="x")
